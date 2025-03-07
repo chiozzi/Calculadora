@@ -9,6 +9,15 @@ form {
     width: 300px;
 }
 
+
+h2{
+    text-align: center;
+    color: purple;
+
+
+}
+
+
 input, label {
     padding: 10px;
     border: 1px solid #ccc;
@@ -17,7 +26,7 @@ input, label {
 }
 
 button {
-    background-color: #007bff;
+    background-color: purple;
     color: white;
     border: none;
     padding: 10px;
@@ -27,9 +36,15 @@ button {
 }
 
 button:hover {
-    background-color: #0056b3;
+    background-color: black;
 }
 
+
+p{
+    font-size: 16px;
+
+
+}
 label {
     font-weight: bold;
     text-align: center;
