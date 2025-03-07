@@ -41,7 +41,10 @@ button:hover {
 
 
 p{
-    font-size: 16px;
+    font-size: 22px ;
+    color: purple;
+    text-align: center;
+    font-weight: bold;
 
 
 }
