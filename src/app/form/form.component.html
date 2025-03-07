@@ -1,0 +1,20 @@
+<form>
+
+   <h2>Insira dois números:</h2>
+
+      <input type="number" [(ngModel)]= "num1" name="num1" placeholder="Número 1">
+      <input type="number" [(ngModel)]= "num2" name="num2" placeholder="Número 2">
+
+   <h2>Escolha a operação desejada:</h2>
+   
+   <button (click)="onClickSomar()">Somar</button>
+   <button (click)="onClickSubtrair()">Subtrair</button>
+   <button (click)="onClickMultiplicar()">Multiplicar</button>
+   <button (click)="onClickDividir()">Dividir</button>
+   <button (click)="onClickPotenciar()">Potenciação</button>
+   <button (click)="onClickMediar()">Média</button>
+   
+   <p>Resultado:</p>
+   <label>{{resultado}}</label>
+</form>
+
